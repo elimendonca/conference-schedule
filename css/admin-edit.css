@@ -1,0 +1,13 @@
+.widefat .column-location,
+.widefat .column-participants,
+.widefat .column-schedule {
+	width: 150px;
+}
+
+.widefat .column-participant-roles {
+	width: 200px;
+}
+
+.widefat .column-sessions {
+	width: 200px;
+}

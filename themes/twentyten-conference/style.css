@@ -1,0 +1,137 @@
+/* @override http://wp.simonwheatley.co.uk/conference/wp-content/themes/twentyten-conference/style.css */
+
+/*
+Theme Name:     TwentyTen Conference
+Theme URI:      http://simonwheatley.co.uk/wordpress/ttcs
+Description:    A child theme for TwentyTen which uses the Conference Schedule plugin.
+Author:         Simon Wheatley
+Author URI:     http://simonwheatley.co.uk/
+Template:       twentyten
+Version:        0.10
+*/
+
+@import url( "../twentyten/style.css" );
+
+div.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
+
+/* @group Speakers */
+
+ul.participants {
+	list-style: none;
+	margin: 0;
+}
+
+ul.participants .participant {
+	float: left;
+	height: 320px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	width: 165px;
+}
+
+#content ul.participants h2.participant-title {
+	font-size: 	16px;
+	margin-bottom: 5px;
+}
+
+ul.participants .participant-title a,
+.single-participant a {
+	text-decoration: none;
+}
+
+ul.participants .participant-title a span.fn,
+.single-participant a span.fn {
+	text-decoration: underline;
+}
+
+#content table.schedule .attachment-participant-schedule-thumb,
+ul.participants .participant-title .attachment-participant-lineup,
+.single-participant .attachment-participant {
+	background: #f1f1f1;
+	line-height: 18px;
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+ul.participants .participant-title .attachment-participant-lineup img,
+.single-participant .attachment-participant img {
+	margin: 5px 5px 0;
+}
+
+.single-participant .attachment-participant {
+	float: right;
+	margin-left: 15px;
+}
+
+.single-participant #content .entry-title,
+.single-participant .entry-content {
+	clear: none !important;
+}
+
+/* @end */
+
+/* @group Schedule */
+
+#content table.schedule {
+	width: 100%;
+}
+
+#content tfoot tr th,
+#content tbody tr th {
+	border-top: 1px solid #E7E7E7;
+	padding: 6px 24px;
+}
+
+#content tbody tr th {
+	font-family: 'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	color: #000;
+}
+
+#content table.schedule tr td,
+#content table.schedule tr th {
+	vertical-align: top;
+}
+
+#content table.schedule tr td.column-session-time,
+#content table.schedule tr th.column-session-time {
+	width: 100px;
+}
+
+#content .column-session-with {
+	width: 200px;
+}
+
+#content table.schedule .session-time {
+	white-space: nowrap;
+}
+
+#content table.schedule h2.session-title {
+	margin-top: 0;
+}
+
+#content table.schedule .with {
+	clear: both;
+	font-weight: 500;
+}
+
+#content table.schedule .attachment-participant-schedule-thumb {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+/* @end */
+
+/* @group Sessions */
+
+.tax-locations .one-column #content,
+.post-type-archive-session .one-column #content {
+	margin: 0 20px;
+	width: auto;
+}
+
+/* @end */

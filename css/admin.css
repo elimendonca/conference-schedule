@@ -1,0 +1,27 @@
+/* @override http://sfbdd.simonwheatley.co.uk/wp-content/plugins/conference-scheduler/css/admin.css?ver=1.001 */
+
+#adminmenu .menu-icon-session div.wp-menu-image {
+	background: transparent url('../images/session-menu-icon.png') no-repeat scroll -1px -33px;
+}
+
+#adminmenu .menu-icon-session:hover div.wp-menu-image,
+#adminmenu .menu-icon-session.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url('../images/session-menu-icon.png') no-repeat scroll -1px -1px;
+}
+
+#adminmenu .menu-icon-participant div.wp-menu-image {
+	background: transparent url('../images/participant-menu-icon.png') no-repeat scroll -1px -33px;
+}
+
+#adminmenu .menu-icon-participant:hover div.wp-menu-image,
+#adminmenu .menu-icon-participant.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url('../images/participant-menu-icon.png') no-repeat scroll -1px -1px;
+}
+
+#icon-edit.icon32-posts-session {
+	background: transparent url( ../images/session-icon.png ) no-repeat -6px -5px;
+}
+
+#icon-edit.icon32-posts-participant {
+	background: transparent url( ../images/participant-icon.png ) no-repeat -6px -5px;
+}
